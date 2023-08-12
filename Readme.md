@@ -32,3 +32,5 @@ Note: need clear caches after config done:
 
 8. Run test file
 npm run test
+9. Run with @tag:
+test:specific scenario: cucumber-js --tags @api
