@@ -4,8 +4,7 @@
   "description": "1. Install extension: Playwright Test for VSCode 2. Click ctrl + Shift + P to install Playwright",
   "main": "index.js",
   "scripts": {
-    "test": "cucumber-js test",
-    "testapi": "cucumber-js src/test/features/apitesting.feature"
+    "test": "cucumber-js test"
   },
   "keywords": [],
   "author": "",
@@ -13,9 +12,6 @@
   "devDependencies": {
     "@cucumber/cucumber": "^9.3.0",
     "@playwright/test": "^1.36.2",
-    "@types/node": "^20.4.9",
-    "axios": "^1.4.0",
-    "ts-node": "^10.9.1",
-    "typescript": "^5.1.6"
+    "ts-node": "^10.9.1"
   }
 }
