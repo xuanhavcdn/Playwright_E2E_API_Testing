@@ -1,6 +1,5 @@
 Feature: API testing
   Scenario: Test menu list
     Given The api is up and running
-    # When I get menu list
-    # Then The menu list should be response successfully with status code 200
-    # And The menu list should be response successfully with correct schema
+    When I get list bank
+    Then Verify list bank api repsonse correctly with sucess status
